@@ -36,4 +36,5 @@ schema:
   run_parameters:
   - match(^(--edge-bind-address|--edge-ip-version|--grace-period|--ha-connections|--logfile|--loglevel|--pidfile|--protocol|--region|--retries|--tag)=.*$)?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-image: ghcr.io/homeassistant-apps/cloudflared/{arch}
+
+image: ghcr.io/wuiyang/cloudflared/{arch}
